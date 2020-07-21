@@ -34,3 +34,22 @@ body {
 .invisible {
     display: none;
 }
+
+
+/* drag-list */
+
+.container {
+    background-color: salmon;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.draggable {
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.dragging {
+    background: rgba(255, 255, 255, 0.3);
+}
